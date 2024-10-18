@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "permutation",
+      "request": "launch",
+      "mainClass": "permutation",
+      "projectName": "StriverSheetRevisionProblems_4d80f7b9"
+    },
+    {
+      "type": "java",
+      "name": "subset",
+      "request": "launch",
+      "mainClass": "subset",
+      "projectName": "StriverSheetRevisionProblems_4d80f7b9"
+    },
+    {
+      "type": "java",
+      "name": "sunset",
+      "request": "launch",
+      "mainClass": "sunset",
+      "projectName": "StriverSheetRevisionProblems_4d80f7b9"
+    },
+    {
+      "type": "java",
+      "name": "solution",
+      "request": "launch",
+      "mainClass": "solution",
+      "projectName": "StriverSheetRevisionProblems_4d80f7b9"
+    },
+    {
+      "type": "java",
       "name": "demo",
       "request": "launch",
       "mainClass": "demo",
