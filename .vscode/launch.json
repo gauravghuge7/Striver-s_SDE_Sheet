@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subSum",
+      "request": "launch",
+      "mainClass": "subSum",
+      "projectName": "StriverSheetRevisionProblems_4d80f7b9"
+    },
+    {
+      "type": "java",
       "name": "permutation",
       "request": "launch",
       "mainClass": "permutation",
