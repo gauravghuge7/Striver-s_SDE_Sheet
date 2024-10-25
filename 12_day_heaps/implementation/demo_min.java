@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.PriorityQueue;
 
 public class demo_min {
 
@@ -104,5 +105,18 @@ public class demo_min {
             resultArray[i] = result.get(i);
          }
          return resultArray;
+   }
+
+
+   public static void main(String[] args) {
+      PriorityQueue pq = new PriorityQueue<>();
+
+      pq.add(7);
+      pq.add(8);
+      pq.add(10);
+      pq.add(3);
+      pq.add(90);
+
+
    }
 }
