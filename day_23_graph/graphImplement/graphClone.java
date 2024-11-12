@@ -1,6 +1,6 @@
 package day_23_graph.graphImplement;
 
-import java.util.ArrayList;
+import java.util.*;
 
 
 class Node {
@@ -30,10 +30,50 @@ class Node {
 
 class demoClone {
 
-
+    demoClone() {}
 
     public Node cloneGraph(Node node) {
-        Node temp = new Node(14);
+
+        if(node == null) return null;
+
+        Node temp = new Node(node.val);
+
+        Queue<Node> q = new LinkedList<>();
+
+        HashSet<Node> set = new HashSet<>();
+
+        q.offer(node);
+        set.add(node);
+
+        while(!q.isEmpty()) {
+
+            Node travel = q.poll();
+
+            temp.neighBours = new ArrayList<>();
+
+            ArrayList<Node> tempList = travel.neighBours;
+
+            for(int i=0; i<tempList.size(); i++) {
+
+                Node make = tempList.get(i);
+
+                if(!set.contains(make)) {
+
+                    set.add(make);
+                    q.offer(make);
+
+                    Node addNew = new Node(make.val);
+                    temp.neighBours.add(addNew);
+
+                }
+
+
+
+            }
+
+            temp = temp.neighBours.get(0);
+
+        }
 
         return temp;
     }
@@ -93,6 +133,31 @@ public class graphClone {
 
     public static void printGraph(Node head) {
 
+        Queue<Node> q = new LinkedList<>();
+
+        HashSet<Node> set = new HashSet<>();
+
+        if(head == null) return;
+
+        q.add(head);
+
+
+        while(!q.isEmpty()) {
+
+            Node temp = q.poll();
+
+            System.out.println(temp.val);
+
+            ArrayList<Node> NB = temp.neighBours;
+
+            for(int i =0; i<NB.size(); i++) {
+                Node travel = NB.get(i);
+                if(!set.contains(travel)) {
+                    set.add(travel);
+                    q.offer(travel);
+                }
+            }
+        }
 
     }
 
@@ -100,10 +165,13 @@ public class graphClone {
 
         Node start = createGraph();
 
+//        printGraph(start);
 
-        System.out.println(start.val);
+        demoClone object = new demoClone();
 
+        Node temp = object.cloneGraph(start);
 
+        printGraph(temp);
 
     }
 
