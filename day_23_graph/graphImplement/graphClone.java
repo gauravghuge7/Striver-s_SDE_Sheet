@@ -39,6 +39,8 @@ class demoClone {
     }
 }
 
+
+
 public class graphClone {
 
 
@@ -87,6 +89,11 @@ public class graphClone {
         temp5.neighBours.add(temp4);
 
         return start;
+    }
+
+    public static void printGraph(Node head) {
+
+
     }
 
     public static void main(String[] args) {

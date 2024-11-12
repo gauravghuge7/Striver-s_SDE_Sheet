@@ -1,4 +1,3 @@
-package 03_day_.SearchIn2D;
 
 class SearchInMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {

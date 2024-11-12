@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StriverSheetRevisionProblems.iml" filepath="$PROJECT_DIR$/StriverSheetRevisionProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day_01_Array_1/day_01_Array_1.iml" filepath="$PROJECT_DIR$/day_01_Array_1/day_01_Array_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day_03/day_03.iml" filepath="$PROJECT_DIR$/day_03/day_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day_12_heaps/day_12_heaps.iml" filepath="$PROJECT_DIR$/day_12_heaps/day_12_heaps.iml" />
+    </modules>
+  </component>
+</project>
