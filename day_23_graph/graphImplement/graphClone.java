@@ -77,6 +77,20 @@ class demoClone {
 
         return temp;
     }
+
+    public  Node newGraph(Node root) {
+
+        Node temp = new Node(root.val);
+
+        Node curr = temp;
+
+
+
+
+
+
+        return temp;
+    }
 }
 
 

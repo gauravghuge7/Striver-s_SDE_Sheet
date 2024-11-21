@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/day_01_Array_1/day_01_Array_1.iml" filepath="$PROJECT_DIR$/day_01_Array_1/day_01_Array_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/day_03/day_03.iml" filepath="$PROJECT_DIR$/day_03/day_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/day_12_heaps/day_12_heaps.iml" filepath="$PROJECT_DIR$/day_12_heaps/day_12_heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day_25_dp_1/day_25_dp_1.iml" filepath="$PROJECT_DIR$/day_25_dp_1/day_25_dp_1.iml" />
     </modules>
   </component>
 </project>
